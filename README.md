@@ -1,6 +1,6 @@
 # VirtualBox RHEL9 Base Box
 
-RHEL9 vagrant base box for VirtualBox.
+RHEL9 Vagrant base box for VirtualBox.
 
 
 - Documentation: [https://developer.hashicorp.com/vagrant/docs](https://developer.hashicorp.com/vagrant/docs)
@@ -26,6 +26,13 @@ Open the VirtualBox Manager GUI, "Show" the basebox vm, upgrade the guest additi
 `vagrant package --base <box name> --info info.json --output base.box`
 
 Find the vm name using `vboxmanage list vms`
+
+### Update the checksum in metadata.json
+
+`certutil -hashfile base.box SHA1`
+
+Update metadata.json with the new hash and increment version if desired.
+
 
 ### Add the base box 
 

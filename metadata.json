@@ -9,7 +9,7 @@
             "name": "virtualbox",
             "url": "./base.box",
             "checksum_type": "sha1",
-            "checksum": "DE72BAA8F3087920723ED1570E388B83E5A49B79",
+            "checksum": "1c3c76c674b0d5d19a943a974f9dfa55b9063b16",
             "architecture": "amd64",
             "default_architecture": true
           }
