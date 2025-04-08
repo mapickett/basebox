@@ -1,0 +1,20 @@
+{
+    "name": "mapickett77/rhel9",
+    "description": "This box contains RHEL9.3 with updated VB Guest Additions.",
+    "versions": [
+      {
+        "version": "0.0.1",
+        "providers": [
+          {
+            "name": "virtualbox",
+            "url": "./base.box",
+            "checksum_type": "sha1",
+            "checksum": "DE72BAA8F3087920723ED1570E388B83E5A49B79",
+            "architecture": "amd64",
+            "default_architecture": true
+          }
+        ]
+      }
+    ]
+  }
+  
