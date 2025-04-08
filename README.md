@@ -1,6 +1,6 @@
 # VirtualBox RHEL9 Base Box
 
-An RHEL9 vagrant base box for VortualBox.
+RHEL9 vagrant base box for VirtualBox.
 
 
 - Documentation: [https://developer.hashicorp.com/vagrant/docs](https://developer.hashicorp.com/vagrant/docs)
