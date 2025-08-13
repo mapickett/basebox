@@ -1,5 +1,5 @@
 {
-    "name": "mapickett77/rhel9",
+    "name": "mapickett/rhel9",
     "description": "This box contains RHEL9.3 with updated VB Guest Additions.",
     "versions": [
       {
